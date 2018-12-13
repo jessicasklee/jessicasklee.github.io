@@ -4,7 +4,6 @@ body {
 
 .home {
     display: flex;
-    align-content: left;
     font-size: 10px;
     font-family: 'Noto Serif KR', serif;
     padding: 20px;
@@ -12,7 +11,7 @@ body {
 }
 
 .jessica {
-    max-width: 30%; length: 30%;
+    max-width: 30%;
     margin: auto;
     padding-top: 70px;
 }
