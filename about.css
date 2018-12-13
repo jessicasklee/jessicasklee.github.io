@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+.home {
+    display: flex;
+    align-content: left;
+    font-size: 10px;
+    font-family: 'Noto Serif KR', serif;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.jessica {
+    max-width: 30%; length: 30%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.aboutjessica {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+    padding-top: 25px;
+    color: black;
+}
+
+.about {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}

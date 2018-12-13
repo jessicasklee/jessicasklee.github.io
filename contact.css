@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    align-content: left;
+    font-size: 10px;
+    font-family: 'Noto Serif KR', serif;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+body {
+    text-align: center;
+}
+
+.image3 {
+    max-width: 30%; length: 30%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.contactjessica {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.contact {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.button {
+    color: black;
+    text-decoration: none;
+    padding: 4px;
+    border:1px solid rgba(0, 0, 0, .2);
+    background: transparent; 
+    border-radius: 6px; 
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
+}

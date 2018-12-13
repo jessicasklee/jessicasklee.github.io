@@ -1,0 +1,80 @@
+body {
+    font-family: 'Noto Serif KR', serif;
+    background-color: white;
+    text-align: center;
+}
+
+/* .flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} */
+
+header {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #5B585A;
+    transform: rotate(-24deg) translate(-160px, -20px);
+}
+
+@media screen and (max-width: 900px) {
+    header {
+      font-size: 20px;
+    }
+  }
+
+.intropiano {
+    max-width: 20%; length: 20%;
+    padding-top: 5%;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: .5px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.btn{
+    background: transparent; 
+    border-radius: 6px; 
+    font-family: 'Noto Serif KR', serif;
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 4px;
+    border:1px solid rgba(0, 0, 0, .2);
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
+}
+
+.img {
+    max-width: 20%; length: 20%;
+    padding: 20px;
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #5B585A;
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
